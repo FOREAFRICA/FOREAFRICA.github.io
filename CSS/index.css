@@ -12,7 +12,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
 }
@@ -471,14 +471,11 @@ body {
     #ninja-slider-prev, #ninja-slider-next, #ninja-slider-pager {
         display:none;
     }
-
     
     #ninja-slider li .cap1 {
         font-size:20px;
     }
 }
-
-
 
 .about-section {
     /* margin-top: 2rem; */
@@ -486,6 +483,40 @@ body {
     padding-right: 7%;
     text-align: center;
     background-color: #6e6767;
+    color: white;
+    height: 100%;
+}
+
+.i-offer {
+    /* margin-top: 2rem; */
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: left;
+    background-color: #504e4e;
+    color: white;
+    height: 100%;
+}
+
+.i-offer h2{
+    text-align: center;
+}
+
+.reviews {
+    /* margin-top: 2rem; */
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: center;
+    background-color: #3d3a3a;
+    color: white;
+    height: 100%;
+}
+
+.contact {
+    /* margin-top: 2rem; */
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: center;
+    background-color: #2b2828;
     color: white;
     height: 100%;
 }
