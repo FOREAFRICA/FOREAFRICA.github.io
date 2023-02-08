@@ -34,7 +34,7 @@ body {
     right: 0;
     top: 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-    z-index: 1;
+    z-index: 50;
 }
 
 .navbar-container {
@@ -478,3 +478,14 @@ body {
     }
 }
 
+
+
+.about-section {
+    /* margin-top: 2rem; */
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: center;
+    background-color: #6e6767;
+    color: white;
+    height: 100%;
+}
