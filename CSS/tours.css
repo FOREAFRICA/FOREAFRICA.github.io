@@ -621,9 +621,9 @@ body {
       text-transform: uppercase;
     }
     
-    table td:last-child {
-      /* border-bottom: 0; */
-    }
+    /* table td:last-child {
+      border-bottom: 0;
+    } */
   }
   
   /* general styling */
