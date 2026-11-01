@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Fore Africa</title>
+  <meta name="description" content="Photos from Fore Africa golf, safari and adventure tours. Tap any picture to view it full screen." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/site.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header id="navbar">
+    <nav class="navbar-container container" aria-label="Main">
+      <a href="../index.html" class="home-link">
+        <span class="navbar-logo"><img src="../Images/small logo.png" alt="" width="24"></span>
+        FORE AFRICA
+      </a>
+      <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div id="navbar-menu">
+        <ul class="navbar-links">
+          <li class="navbar-item"><a class="navbar-link" href="../index.html">Home</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="tours.html">Tours I offer</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="../cert/cert.html">Guide certificate</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="gallery.html" aria-current="page">Gallery</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <header class="page-title">
+      <div class="container">
+        <span class="eyebrow">On the road with Fore Africa</span>
+        <h1>Gallery</h1>
+        <p>Every picture shown in its own proportions. Tap one to view it full screen.</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <div class="gallery-grid" id="gallery-grid" data-base="../Images/"></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="viewer" id="viewer" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <div class="viewer-top">
+      <button type="button" class="ss-btn viewer-full" aria-label="Toggle full screen"><i class="fa fa-expand" aria-hidden="true"></i></button>
+      <button type="button" class="ss-btn viewer-close" aria-label="Close viewer"><i class="fa fa-times" aria-hidden="true"></i></button>
+    </div>
+    <button type="button" class="ss-btn viewer-prev" aria-label="Previous photo"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+    <button type="button" class="ss-btn viewer-next" aria-label="Next photo"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+    <div class="viewer-stage"><img class="viewer-img" alt=""></div>
+    <div class="viewer-bar"><span class="viewer-count"></span><span class="viewer-cap"></span></div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <img src="../Images/banner logo.jpg" alt="Fore Africa" width="260">
+      <p>Private guided golf &amp; safari tours · <a href="../index.html#contact">Contact Elardus</a></p>
+    </div>
+  </footer>
+
+  <script src="../JS/site.js"></script>
+</body>
+
+</html>

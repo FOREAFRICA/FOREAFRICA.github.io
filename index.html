@@ -4,143 +4,132 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home</title>
-  <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
+  <title>Fore Africa | Private Guided Golf &amp; Safari Tours</title>
+  <meta name="description" content="Personal and private guided tours, golf and safari tours and adventure tours through Mpumalanga, the Kruger Park and Mozambique." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./CSS/site.css" />
 </head>
 
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <header id="navbar">
-    <nav class="navbar-container container">
+    <nav class="navbar-container container" aria-label="Main">
       <a href="index.html" class="home-link">
-        <div class="navbar-logo"><img src="./Images/small logo.png" alt="Logo" width="30"></div>
+        <span class="navbar-logo"><img src="./Images/small logo.png" alt="" width="24"></span>
         FORE AFRICA
       </a>
-      <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu"
-        aria-expanded="false">
+      <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <div id="navbar-menu" aria-labelledby="navbar-toggle">
+      <div id="navbar-menu">
         <ul class="navbar-links">
-          <li class="navbar-item"><a class="navbar-link" href="index.html">Home</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="index.html" aria-current="page">Home</a></li>
           <li class="navbar-item"><a class="navbar-link" href="HTML/tours.html">Tours I offer</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="cert/cert.html">Guide certificate</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="HTML/gallery.html">Gallery</a></li>
         </ul>
       </div>
     </nav>
   </header>
 
-  <br>
+  <main id="main">
+    <section class="slideshow" data-base="Images/" aria-label="Fore Africa photo slideshow">
+      <div class="ss-caption">
+        <div class="container">
+          <span class="eyebrow">Golf &amp; Safari Tours · South Africa</span>
+          <h1>Fore Africa</h1>
+          <p>Personal and private guided tours, I drive guided tours, incentive tours, golf &amp; safari tours as well as adventure tours.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="HTML/tours.html">See the tours</a>
+            <a class="btn btn-ghost" href="#contact">Plan my trip</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <div id="ninja-slider">
-    <div class="slider-inner">
-      <ul>
-        <li>
-          <a class="ns-img" href="Images/banner logo.jpg"></a>
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="reveal">
+          <div class="section-head"><h2>Your safety is our 1st priority</h2></div>
+          <p>At Fore Africa your safety is our 1st priority. Not only will you be as safe and secure as possible during your
+            trip in SA - you will also experience the real South Africa and its splendid beauty. Best of all is the amazing
+            scenery as well as the wildlife in their natural surroundings. I, a born and bred South African, from Sabie will personally drive you
+            through our scenic country and will try to answer all your questions about our culture, country, wildlife and
+            anything else you might want to know. I'm a qualified guide, hold a Diploma in Journalism and I have 20 years experience in the hospitality industry with Sun International.</p>
+          <p>Fore Africa specializes in trips from Gauteng to Sun City in the west, all the way through to the east towards
+            the amazing and well-known Kruger Park. From Johannesburg and Pretoria we will visit towns like Dullstroom, Sabie, Pilgrims Rest and
+            Graskop. From Graskop we will follow the Panorama route with the Blyde River Canyon and all its spectacular
+            viewpoints before entering the Kruger Park. On route, I might just show you a few secret places only the locals know about! For the more adventurous there is also a cross border trip to the unspoilt Mozambique!</p>
+          <blockquote>My favorite quote: "It is real adventure getting there, but once you arrive at your destination on the coast - you will find an unspoilt paradise that only Africa can offer you."</blockquote>
+        </div>
 
-        </li>
-        <li><a class="ns-img" href="Images/braai and ball.png"></a>
+        <div class="credentials reveal">
+          <a class="credential" href="cert/cert.html">
+            <i class="fa fa-certificate" aria-hidden="true"></i>
+            <div><strong>Qualified Guide</strong><span>View my certificate</span></div>
+          </a>
+          <div class="credential">
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            <div><strong>Diploma in Journalism</strong><span>Stories and answers for every question</span></div>
+          </div>
+          <div class="credential">
+            <i class="fa fa-building" aria-hidden="true"></i>
+            <div><strong>20 years hospitality</strong><span>With Sun International</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        </li>
-        <li>
-          <a href="/"><img class="ns-img" src="Images/giraffes.jpg" style="cursor:pointer;" /></a>
+    <section class="section section-dark" id="offer">
+      <div class="container">
+        <div class="section-head reveal"><h2>I offer:</h2></div>
+        <div class="offer-grid">
+          <div class="offer-card reveal"><span class="num">01</span><p>Drive and guided tours from 4 days to 20 days</p></div>
+          <div class="offer-card reveal"><span class="num">02</span><p>Drive &amp; Guided tours for families and friends. Sit back and enjoy while I take care of all your needs.</p></div>
+          <div class="offer-card reveal"><span class="num">03</span><p>We can help you plan your trip, or I will fit in with your itinerary and take you to all your destinations, safe and sound as possible.</p></div>
+          <div class="offer-card reveal"><span class="num">04</span><p>Once in a lifetime golf tours for groups from 4 to 40. Top golf courses like Royal Johannesburg, Elements, Highlandgate and either Leopard Creek or the awe-inspiring Skukuza golf course in the Kruger National Park</p></div>
+        </div>
+        <div class="offer-note reveal"><i class="fa fa-compass" aria-hidden="true"></i> Adventure tours, Graskop offers the big swing, a zipline and a glass lift.</div>
+      </div>
+    </section>
 
-        </li>
-        <li>
-          <a class="ns-img" href="Images/golf ball.png"></a>
-        </li>
-        <li>
-          <a class="ns-img" href="Images/1.jpg"></a>
-        </li>
-        <li>
-          <a class="ns-img" href="Images/2.jpg"></a>
-        </li>
-        <li>
-          <a class="ns-img" href="Images/3.jpg"></a>
-        </li>
-        <li>
-          <a class="ns-img" href="Images/4.jpg"></a>
-        </li>
-        <!-- <li>
-          <a class="ns-img" href="Images/5.jpg"></a>
-        </li>
-        <li>
-          <a class="ns-img" href="Images/6.jpg"></a>
-        </li>
-        <li>
-          <a class="ns-img" href="Images/7.jpg"></a>
-        </li> -->
+    <section class="section" id="reviews">
+      <div class="container review reveal">
+        <div class="section-head center"><h2>Here is what some of our customers had to say</h2></div>
+        <blockquote>Hey, Elardus, we arrived well in France. Thank you again for all this experience that will stay in our minds forever!</blockquote>
+        <p>Also check out our range of videos, including reviews and videos about experiences we've had in this beautiful country, on our Youtube channel by clicking the Youtube button below.</p>
+        <div class="social">
+          <a class="fb" href="https://www.facebook.com/GolfToursSouthAfricaForeAfrica"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+          <a class="yt" href="https://www.youtube.com/@elardussenekal6972/videos"><i class="fa fa-youtube" aria-hidden="true"></i> YouTube</a>
+        </div>
+      </div>
+    </section>
 
-      </ul>
-      <div class="fs-icon" title="Expand/Close"></div>
+    <section class="section section-dark contact" id="contact">
+      <div class="container reveal">
+        <h2>For more information contact Elardus</h2>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:elarduss77@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> elarduss77@gmail.com</a>
+          <a class="btn btn-ghost" href="tel:+27828087820"><i class="fa fa-phone" aria-hidden="true"></i> WhatsApp me on +27 82 808 7820</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <img src="./Images/banner logo.jpg" alt="Fore Africa" width="260">
+      <p>Private guided golf &amp; safari tours · <a href="cert/cert.html">Guide certificate</a></p>
     </div>
-  </div>
+  </footer>
 
-  <div></div>
-
-  <div class="about-section">
-    <h1>FORE AFRICA</h1>
-    <h2>PERSONAL AND PRIVATE GUIDED TOURS, I DRIVE GUIDED TOURS,  INCENTIVE TOURS, GOLF & SAFARI TOURS AS WELL AS ADVENTURE TOURS</h2>
-    <h3>At Fore Africa your safety is our 1st priority. Not only will you be as safe and secure as possible during your
-      trip in SA - you will also experience the real South Africa and its splendid beauty. Best of all is the amazing
-      scenery as well as the wildlife in their natural surroundings. I, a born and bred South African, from Sabie will personally drive you
-      through our scenic country and will try to answer all your questions about our culture, country, wildlife and
-      anything else you might want to know. I'm a qualified guide for Mpumalanga, hold a Diploma in Journalism and I have 20 years experience in the hospitality industry.
-    with Sun International.</h3>
-    <br>
-    <h3>Fore Africa specializes in trips from Gauteng to Sun City in the west, all the way through to the east towards
-      the amazing and well-known Kruger Park. From Johannesburg and Pretoria  we will visit towns like Dullstroom, Sabie, Pilgrims Rest and
-      Graskop. From Graskop we will follow the Panorama route with the Blyde River Canyon and all its spectacular
-      viewpoints before entering the Kruger Park. On route, I might just show you a few secret places only the locals knows about! For the more adventurous there is also cross border trip to the unspoilt Mozambique! My favorite qoute: " It is an          
-      It is real adventure getting there, but once you arrive at your destination on the coast - you will find an unspoilt paradise that only Africa can offer you "//
-    <br>
-  </div>
-
-  <div class="i-offer">
-    <h2>I offer:</h2>
-    <h3>
-      <ul>
-        
-        <li>Drive and guided tours from 4 days to 20 days</li>
-        <li>Drive & Guided tours for families and friends. Sit back and enjoy while I take care of all your needs.</li>
-        <li>We can help you plan your trip, or I will fit in with your itinerary and take you to all your destinations, safe and sound as possible.</li>
-        <li>Once in a lifetime golf tours for groups from 4 to 40. Top golf courses like Royal Johannesburg, Elements, Highlandgate and either Leopard Creek or the awe-inspiring Skukuza golf course in the Kruger National Park</li>
-      </ul> Adventure tours,  Graskop offers the big swing, a zipline and a glass lift. 
-    </h3>
-  </div>
-
-  <div style="background-color: #504e4e;">
-    <br>
-    <br>
-  </div>
-
-  <div class="reviews">
-    <h2>Here is what some of our customers had to say:</h2>
-    <h3>“Hey, Elardus, we arrived well in France. Thank you again for all this experience that will stay in our minds forever!"</h3>
-    <h3><a href="https://www.facebook.com/GolfToursSouthAfricaForeAfrica" class="fa fa-facebook"></a></h3>
-    <h2>Also check out our range of videos, including reviews and videos about experiences we've had in this beautiful country, on our Youtube channel by clicking the Youtube button below.</h2>
-    <a href="https://www.youtube.com/@elardussenekal6972/videos" class="fa fa-youtube"></a>
-  </div>
-
-  <div style="background-color: #3d3a3a;">
-    <br>
-    <br>
-  </div>
-
-  <div class="contact">
-    <h2>For more information contact Elardus:</h2>
-    <h3><a href = "mailto: elarduss77@gmail.com">elarduss77@gmail.com</a></h3>
-    <h3>WhatsApp me on <a href="tel:+27 82 808 7820">+27 82 808 7820</a></h3>
-    
-  </div>
-
-  <div style="background-color: #2b2828;">
-    <br>
-    <br>
-  </div>
-
-  <script src="./JS/index.js"></script>
+  <script src="./JS/site.js"></script>
 </body>
 
 </html>
