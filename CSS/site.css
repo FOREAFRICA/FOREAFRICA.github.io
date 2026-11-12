@@ -394,3 +394,27 @@ a.credential:hover { transform: translateY(-3px); border-color: var(--accent); }
   .viewer-bar { padding: 0 4rem; justify-content: center; }
   .viewer-cap { display: none; }
 }
+
+/* ---------- Custom tour steps ---------- */
+.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.4rem; counter-reset: step; }
+.step {
+  position: relative; padding: 4.2rem 1.6rem 1.7rem; border-radius: var(--radius); background: var(--paper);
+  box-shadow: var(--shadow); border-top: 4px solid var(--accent);
+}
+.step::before {
+  counter-increment: step; content: counter(step);
+  position: absolute; top: 0.8rem; left: 1.6rem; font: 600 3rem/1 var(--font-head); color: var(--accent);
+}
+.step h3 { font-size: 1.5rem; margin-bottom: 0.4em; }
+.step p { margin: 0; }
+.center-cta { text-align: center; margin: 2.4rem 0 0; }
+
+.ss-caption .hero-sub {
+  margin: 0 0 1rem; font: 600 clamp(1.3rem, 3.4vw, 2rem) var(--font-head);
+  letter-spacing: 0.3em; text-transform: uppercase; color: var(--sand);
+}
+
+.review blockquote cite {
+  display: block; margin-top: 0.9rem; font: 600 1.1rem var(--font-head); font-style: normal;
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent-dark);
+}
